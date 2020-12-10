@@ -3,7 +3,7 @@ import pandas as pd
 import datch.errors
 
 
-def check(input_file=None, sheet_name=None, output_file=None):
+def excel(input_file=None, sheet_name=None, output_file=None):
     
     # check path for inputfile and outputfile
     if input_file[0] != os.path.sep:

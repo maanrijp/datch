@@ -14,7 +14,7 @@ with open(os.path.join(_here, 'datch', 'version.py')) as f:
 setup(
     name='datch',
     version=version['__version__'],
-    description=('DatCh checks Excel files or Pandas DataFrames for inconsistancies.'),
+    description=('DatCh checks data for inconsistancies.'),
     long_description=long_description,
     long_description_content_type="text/markdown",
     author='Arvid Hahné',

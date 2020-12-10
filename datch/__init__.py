@@ -1,2 +1,2 @@
 from datch import errors
-from datch.datch import check
+from datch.datch import excel
