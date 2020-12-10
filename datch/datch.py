@@ -14,7 +14,7 @@ def excel(input_file=None, sheet_name=None, output_file=None):
         file_name, file_extension = os.path.splitext(file_name_full)
         output_file = file_path + os.path.sep + file_name + '_datched' + file_extension
     elif output_file[0] != os.path.sep:
-        output_file = os.path.sep + ououtput_filetput
+        output_file = os.path.sep + output_file
 
     # read the data
     sheets_dict = pd.read_excel(os.getcwd()+input_file, sheet_name=sheet_name)
